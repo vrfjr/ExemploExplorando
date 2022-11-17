@@ -17,13 +17,23 @@ namespace ExemploExplorando.Models
 
         public int ObterQuatidadeDeAlunosMatriculados()
         {
-
             int quantidade = Alunos.Count;
             return quantidade;
-
         }
 
+        public bool RemoverAluno(Pessoa aluno)
+        {
+            return Alunos.Remove(aluno);
+        }
 
+        public void ListarAlunos()
+        {
+            Console.WriteLine("Alunos do curso");
+            foreach(Pessoa aluno in Alunos)
+                {
+                Console.WriteLine(aluno.NomeCompleto);
+            }
+        }
 
     }
 }
