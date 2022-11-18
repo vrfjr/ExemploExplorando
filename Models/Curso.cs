@@ -28,11 +28,13 @@ namespace ExemploExplorando.Models
 
         public void ListarAlunos()
         {
-            Console.WriteLine("Alunos do curso");
-            foreach(Pessoa aluno in Alunos)
+            Console.WriteLine($"Alunos do curso de: {Nome}" );
+
+            for (int count = 0; count < Alunos.Count; count++)
                 {
-                Console.WriteLine(aluno.NomeCompleto);
-            }
+                string texto = "Nº " + count + " - " + Alunos[count].NomeCompleto;
+                Console.WriteLine(texto);
+                }
         }
 
     }
