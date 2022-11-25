@@ -1,20 +1,25 @@
 ﻿using ExemploExplorando.Models;
+using System;
+using System.Globalization;
 
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt_BR");
 
-string numero1 = "10";
-string numero2 = "20";
+decimal valorMonetario = 82.40M;
 
-string resultado = numero1 + numero2;
-
-Console.WriteLine(resultado);
-
-
-
+Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("en-US")));
 
 
 
 
 
+
+
+// string numero1 = "10";
+// string numero2 = "20";
+
+// string resultado = numero1 + numero2;
+
+// Console.WriteLine(resultado);
 
 
 
