@@ -3,22 +3,41 @@ using System;
 using System.Globalization;
 
 
+
+
+string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+
+foreach(string linha in linhas){
+    Console.WriteLine(linha);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 // data
 
-string dataString = "2022-12-17 18:00";
+// string dataString = "2022-12-17 18:00";
 
-bool sucesso = DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data);
+// bool sucesso = DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data);
 
-////// DateTime.TryParseExact(string, formatado que esta string, cultura ou padrao, estilo, variavel que ele vai jogar);
+// ////// DateTime.TryParseExact(string, formatado que esta string, cultura ou padrao, estilo, variavel que ele vai jogar);
 
-if (sucesso)
-{
-    Console.WriteLine($"Conversão com sucesso! Data: {data}");
-}
-else
-{
-    Console.WriteLine($"{dataString} não é uma data valida");
-}
+// if (sucesso)
+// {
+//     Console.WriteLine($"Conversão com sucesso! Data: {data}");
+// }
+// else
+// {
+//     Console.WriteLine($"{dataString} não é uma data valida");
+// }
 
 
 
@@ -86,6 +105,9 @@ else
 // Pessoa p1 = new Pessoa(nome: "Vagner", sobrenome: "Jr");
 // Pessoa p2 = new Pessoa(nome: "Eduardo", sobrenome: "Aquele La");
 
+
+// p1.Idade = 1;
+// p1.Apresentar();
 
 // Curso cursoDeIngles = new Curso();
 // cursoDeIngles.Nome = "Ingles";
