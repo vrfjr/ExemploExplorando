@@ -4,22 +4,36 @@ using System.Globalization;
 
 
 
-try {
-    string[] linhas = File.ReadAllLines("Arquivos/pasta1/arquivoLeitura.txt");
+new ExemploExcecao().Metodo1();
 
-foreach(string linha in linhas){
-    Console.WriteLine(linha);
-}
-} catch (FileNotFoundException ex1)
-{
-    Console.WriteLine($"Arquivo nao encontrado. {ex1.Message}");
-}catch (DirectoryNotFoundException ex2)
-{
-    Console.WriteLine($"Caminho da pasta nao encontrado. {ex2.Message}");
-}catch (Exception ex)
-{
-    Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
-}
+
+
+
+
+
+
+
+
+
+
+// try {
+//     string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+
+// foreach(string linha in linhas){
+//     Console.WriteLine(linha);
+// }
+// } catch (FileNotFoundException ex1)
+// {
+//     Console.WriteLine($"Arquivo nao encontrado. {ex1.Message}");
+// }catch (DirectoryNotFoundException ex2)
+// {
+//     Console.WriteLine($"Caminho da pasta nao encontrado. {ex2.Message}");
+// }catch (Exception ex)
+// {
+//     Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
+// }finally{
+//     Console.WriteLine("Chegou ate aqui");
+// }
 
 
 
