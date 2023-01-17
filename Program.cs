@@ -4,7 +4,131 @@ using System.Globalization;
 
 
 
-new ExemploExcecao().Metodo1();
+// <chave, valor>
+
+Dictionary<string, string> estados = new Dictionary<string, string>();
+
+
+estados.Add("SP", "São Paulo");
+estados.Add("RJ", "Rio de Janeiro");
+estados.Add("MG", "Minas Gerais");
+
+Console.WriteLine(estados["MG"]);
+
+
+// foreach (KeyValuePair<string, string> item in estados)
+
+// foreach (var item in estados)
+// {
+//     Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+// }
+
+
+//  Console.WriteLine($"removendo o SP ");
+//  estados.Remove("SP");
+
+
+// Console.WriteLine($"alterando Rio ");
+// estados["RJ"] = "Rio - Valor alterado";
+
+// foreach (var item in estados)
+// {
+//     Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+// }
+
+
+// string chave = "MG2";
+// Console.WriteLine($"verificando o elemtno {chave}");
+
+// if (estados.ContainsKey(chave))
+// {
+//     Console.WriteLine($"Valor ja existe {chave}");
+
+// }
+// else{
+//     Console.WriteLine($"Pode adicionar a {chave}");
+// }
+
+
+
+
+// Stack<int> pilha = new Stack<int>();
+
+// pilha.Push(4);
+// pilha.Push(6);
+// pilha.Push(8);
+// pilha.Push(10);
+
+
+// foreach (int item in pilha)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+
+
+// Console.WriteLine($"Removendo da fila o numero {pilha.Pop()}");
+
+// //add numero 20
+// pilha.Push(20);
+
+// foreach (int item in pilha)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+
+
+
+
+
+// Queue<int> fila = new Queue<int>();
+
+// fila.Enqueue(2);
+// fila.Enqueue(4);
+// fila.Enqueue(6);
+// fila.Enqueue(8);
+
+// foreach(int item in fila)
+// {
+//     Console.WriteLine(item);
+// }
+//  Console.WriteLine($"Removendo da fila o numero {fila.Dequeue()}");
+
+
+// foreach(int item in fila)
+// {
+//     Console.WriteLine(item);
+// }
+
+//  Console.WriteLine($"Removendo da fila o numero {fila.Dequeue()}");
+
+
+// foreach(int item in fila)
+// {
+//     Console.WriteLine(item);
+// }
+//  Console.WriteLine($"Removendo da fila o numero {fila.Dequeue()}");
+
+
+// foreach(int item in fila)
+// {
+//     Console.WriteLine(item);
+// }
+//  Console.WriteLine($"Removendo da fila o numero {fila.Dequeue()}");
+
+
+// foreach(int item in fila)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+
+
+// new ExemploExcecao().Metodo1();
 
 
 
