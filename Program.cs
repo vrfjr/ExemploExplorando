@@ -4,16 +4,41 @@ using System.Globalization;
 
 
 
+
+
+
+(int Id, string Nome, string Sobrenome, decimal Altura) tupla = (1, "Vagner", "Figueiredo", 1.80M );
+
+// ValueTuple<int, string, string, decimal> outroExemploTupla = (1, "Vagner", "Figueiredo", 1.80M );
+// var outroExemploTuplaCreate = Tupla.Create(1, "Vagner", "Figueiredo", 1.80M );
+
+
+Console.WriteLine($"id: {tupla.Id}");
+Console.WriteLine($"Nome: {tupla.Nome}");
+Console.WriteLine($"Sobrenome: {tupla.Sobrenome}");
+Console.WriteLine($"Altura: {tupla.Altura}");
+
+
+
+
+
+
+
+
+
+
+
+
 // <chave, valor>
 
-Dictionary<string, string> estados = new Dictionary<string, string>();
+// Dictionary<string, string> estados = new Dictionary<string, string>();
 
 
-estados.Add("SP", "São Paulo");
-estados.Add("RJ", "Rio de Janeiro");
-estados.Add("MG", "Minas Gerais");
+// estados.Add("SP", "São Paulo");
+// estados.Add("RJ", "Rio de Janeiro");
+// estados.Add("MG", "Minas Gerais");
 
-Console.WriteLine(estados["MG"]);
+// Console.WriteLine(estados["MG"]);
 
 
 // foreach (KeyValuePair<string, string> item in estados)
