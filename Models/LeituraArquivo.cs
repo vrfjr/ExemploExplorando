@@ -13,7 +13,7 @@ namespace ExemploExplorando.Models
           
             string[] linhas = File.ReadAllLines(caminho);
 
-             return(true, linhas, lihas.Count());
+             return(true, linhas, linhas.Count());
 
             }catch(Exception)
             {
