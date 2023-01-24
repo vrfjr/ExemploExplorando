@@ -3,19 +3,56 @@ using Newtonsoft.Json;
 using System;
 using System.Globalization;
 
-List<Venda> listaVendas = new List<Venda>();
 
-Venda v1 = new Venda(1, "Materiais de escritorio", 29.90M);
-Venda v2 = new Venda(1, "Software", 29.90M);
 
-listaVendas.Add(v1);
-listaVendas.Add(v2);
 
-string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
 
-File.WriteAllText("Arquivos/vendas.json", serializado);
 
-Console.WriteLine(serializado);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// DateTime dataAtual = DateTime.Now;
+// //ISO 8601
+
+
+// List<Venda> listaVendas = new List<Venda>();
+
+// Venda v1 = new Venda(1, "Materiais de escritorio", 29.90M, dataAtual);
+// Venda v2 = new Venda(1, "Software", 299.90M, dataAtual);
+
+// listaVendas.Add(v1);
+// listaVendas.Add(v2);
+
+// string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+
+// File.WriteAllText("Arquivos/vendas.json", serializado);
+
+// Console.WriteLine(serializado);
 
 
 
