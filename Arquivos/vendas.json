@@ -1,14 +1,16 @@
 [
   {
     "Id": 1,
-    "Produto": "Materiais de escritorio",
+    "Nome_Produto": "Materiais de escritorio",
     "Preco": 29.90,
-    "DataVenda": "2023-01-24T19:55:37.5586516-03:00"
+    "DataVenda": "2023-01-24T19:55:37.5586516-03:00",
+    "Desconto": null
   },
   {
     "Id": 1,
-    "Produto": "Software",
+    "Nome_Produto": "Software",
     "Preco": 299.90,
-    "DataVenda": "2023-01-24T19:55:37.5586516-03:00"
+    "DataVenda": "2023-01-24T19:55:37.5586516-03:00",
+    "Desconto": 99
   }
 ]

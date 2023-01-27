@@ -23,6 +23,148 @@ using System.Globalization;
 
 
 
+// EXEMPLO List<tipo> lista = new List<tipo>();
+
+// dynamic variavelDinamica = 4;
+
+// Console.WriteLine($"Tipo da Variavel: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+
+// variavelDinamica = "Texto";
+// Console.WriteLine($"Tipo da Variavel: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+// variavelDinamica = true;
+// Console.WriteLine($"Tipo da Variavel: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+
+
+
+
+
+// string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+
+// List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+
+// var ListaAnonimo = listaVenda.Select(x => new { x.Produto, x.Preco });
+
+
+// foreach(var venda in ListaAnonimo)
+// {
+//     System.Console.WriteLine($"Produto: {venda.Produto}, Preço: {venda.Preco}");
+// }
+
+
+
+
+
+
+
+
+
+
+
+// var tipoAnonimo = new { Nome = "Naruto", Sobrenome = "Uzumaki", Altura = 1.80 };
+
+// Console.WriteLine("Nome: " + tipoAnonimo.Nome);
+// Console.WriteLine("Sobrenome: " + tipoAnonimo.Sobrenome);
+// Console.WriteLine("Altura: " + tipoAnonimo.Altura);
+
+
+
+
+
+
+
+
+
+
+// string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+//  List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+
+//  foreach (Venda venda in listaVenda)
+//  {
+//     Console.WriteLine($"ID: {venda.Id}, Produto: {venda.Produto}, " + $"Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}" + $"  {(venda.Desconto.HasValue ? $"Desconto de: {venda.Desconto}" : "")}");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // bool? desejaReceberEmail = null;
+
+
+// // if (desejaReceberEmail.HasValue && desejaReceberEmail.Value)
+// // {
+// //     Console.WriteLine("O usuario optou por receber o e-mail.");
+// // }
+// // else{
+// //     Console.WriteLine("O usuario nao respondeu ou optou por não receber o e-mail.");
+// // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+// List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+
+// foreach (Venda venda in listaVenda)
+// {
+//     Console.WriteLine($"ID: {venda.Id}, Produto: {venda.Produto}, Preço: {venda.Preco}, Data da compra: {venda.DataVenda} ");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
