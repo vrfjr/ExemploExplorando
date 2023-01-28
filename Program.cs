@@ -4,6 +4,14 @@ using System;
 using System.Globalization;
 
 
+int numero = 15;
+bool par = false;
+
+//if tenario
+par = numero.EhPar();
+
+string mensagem = "O numero " + numero + " " + "é " + (par ? "par" : "impar");
+System.Console.WriteLine(mensagem);
 
 
 
@@ -11,6 +19,37 @@ using System.Globalization;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// MeuArray<int> arrayInteiro = new MeuArray<int>();
+
+// arrayInteiro.AdicionarElementoArray(30);
+
+// System.Console.WriteLine(arrayInteiro[0]);
+
+
+
+// MeuArray<string> arrayString = new MeuArray<string>();
+
+// arrayString.AdicionarElementoArray("Teste");
+
+// System.Console.WriteLine(arrayString[0]);
 
 
 
